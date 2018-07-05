@@ -12,5 +12,5 @@ app.use('/scripts', express.static(`${__dirname}/node_modules/`));
 
 // listen for http request on port 3000
 app.listen(port, () => {
-  console.log('listening on $d', port);
+  console.log('listening on %d', port);
 });
